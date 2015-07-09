@@ -184,3 +184,4 @@ DOM.prototype = {
     return new DOM('id', this.element[this.element.length - 1]);
   }
 }
+window.$ = window.jHelper;
